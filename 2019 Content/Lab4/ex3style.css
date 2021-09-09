@@ -1,0 +1,26 @@
+#wrapper{
+  background-color: green;
+}
+
+div p{
+background-color: green;
+}
+
+.box{
+  border: dotted 4px;
+margin-left: 20px;
+}
+
+.redText{
+  color:red;
+  margin-left:20px;
+}
+
+.greenText{
+  color: darkgreen;
+margin-left:20px;
+}
+
+.purpleText{
+  color: purple;
+}

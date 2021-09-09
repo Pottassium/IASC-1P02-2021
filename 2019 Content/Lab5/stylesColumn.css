@@ -1,0 +1,43 @@
+body{
+    color: red;
+    background-color: black;
+}
+#wrapper{
+  width: 1200px;
+  margin: 0px auto;  /*Can use negative to adjust as needed*/
+  background-color: white;
+}
+
+#header{
+  text-align: center;
+  color: green;
+  height: 75px;
+}
+
+#navigation1{
+  float:left;
+  height: 100px;
+  background-color: blue;
+  width: 20%;
+}
+
+#navigation2{
+  float:right;
+  height: 100px;
+  background-color: pink;
+  width: 80%;
+}
+
+#mainBody{
+  /*float: left;*/
+  height: 800px;
+  background-color: green;
+  width: 100%;
+}
+
+#footer{
+  text-align: center;
+  background-color: orange;
+  height: 75px;
+  clear: both;
+}

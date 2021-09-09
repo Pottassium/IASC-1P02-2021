@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+}
+
+.giant{
+  font-size: 50px;
+}
+
+#jollyRed{
+  color: red;
+  text-decoration: underline;
+}
+
+
+#firstSample{
+  color: green;
+  font-weight: bold;
+}
+
+#secondSample{
+  color: orange;
+}
+
+#secondSampleTwo{
+  color: red;
+  vertical-align: super;
+}
+
+#thirdSample{
+  color: pink
+}
+
+#thirdSampleTwo{
+  color: yellow;
+  text-transform: uppercase;
+  font-style: italic;
+}

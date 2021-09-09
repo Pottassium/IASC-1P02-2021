@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type = "text/css" href="mint.css">
+<title> Learn about our favourite brands </title>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" lang="en">
+<style>
+a:hover {
+  background-color: white;
+}
+</style>
+</head>
+<body>
+<img class = "dancet" src = "bell.jpeg" alt="dancet">
+<img class = "fancet" src = "block.jpeg" alt="fancet">
+
+
+  <div id = "header">
+  <h1>Pointe Shoes</h1>
+  </div>
+
+  <div id= "potato">
+  <h2> Learn more about our brands</h2>
+    <p> During the height of the Great Depression in 1930, Jacob Bloch, a shoe maker by trade, emigrated to Australia from Eastern Europe, bringing with him a profound adoration for music and dance.
+
+Whilst visiting a local dance school, he noticed a young dancer struggling to stay en pointe. He vowed to create a better pair of pointe shoes to help, which is exactly what he did.
+
+
+During the late 1930s, many overseas ballet companies toured Australia, including the famed Ballet Russe de Monte Carlo. Bloch created shoes for many of these well-known Russian dancers — including Olga Spessivtseva, Tamara Toumanova, Irina Baranova, David Lichine, Tania Riabouchinskaya and Helene Kirsova — building each bespoke pair to the dancer’s specifications.
+  </div>
+  <div id="cow">
+<h3>Helpful Links</h3>
+  </div>
+
+
+
+  <div id="head">
+    <a href="https://www.youtube.com/watch?v=_Lqz_EllwNU"> </a>
+        <h3 class = "return">__________________________________________________________________</h3>
+    <a href="final.html">Return to Main Page</a>
+
+    </div>
+
+
+
+
+<div id="linky">
+	<a href="otaku.html"> Next Page</a>
+
+
+<audio id="myAudio">
+
+  <source src="J_Syreus_Bach_-_Goodbye_Grandmother(1).mp3" type="audio/mpeg">
+
+</audio>
+
+<p>Click the buttons to play Ballet music</p>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button>
+</div>
+<script>
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+}
+</script>
+
+</body>
+</html>

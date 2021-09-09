@@ -1,0 +1,33 @@
+FILENAMES: Very important
+
+Grouping/Nesting: use commas to group things together (comma is OR)
+Nesting:   .x y {RULE;}:  (space is AND)
+
+Dimensions: Height/Width, min- and max-; px and % can be used (% is as a % of the page) - Showcase Lab5.html example, adjust width/margin, say "width is 50% so the text gets squished and moves around."  Image moves because % is based on window size.  Min/max height scale unless a conflict occurs
+
+Positioning: No more center tags!
+Fixed: Handy for menu bars, logins.  Is always there in the same spot!
+Absolute: Stays in a specific spot regardless of things moving around it.  Doesn't scroll with the page.
+Relative: Any movement information you pass into this kind of positioning moves the content relative to its unadjusted position, i.e. left: 20px; is 20px away from where it normally would have shown up.  Handy for adjusting things on a small scale.
+Location: Absolute/Fixed start at top-left corner, relative start in-place
+SHOW INSPECT PAGE WITH GOOGLE CHROME BOX MODEL AT THIS POINT
+
+Overlap: Z-index, higher index brings closer to screen
+
+TWO COLUMN LAYOUT:
+Centre-ing: margin: 0 auto; will create no margins top and bottom, and equate left and right (centre the box in its FIXED or ABSOLUTE parent)
+FLOAT: Float and clear need to work together
+
+
+
+TALK ABOUT PADDING AND MARGIN MODIFICATIONS FIRST
+
+Exercise 1: Grab groupNest, group p1 and p3 together with OR along with p2 and p4 together with OR, nest p in div1 with AND
+Exercise 2: Follow along and experiment
+Exercise 3: Follow along and experiment
+Exercise 4: SFW site any recommendations (otherwise I will pick http://www.thecompletetraveler.ca/)
+
+
+
+For CHALLENGE CODES, ignore blackspace (it should not be replicated) but the whitespace inside should be
+

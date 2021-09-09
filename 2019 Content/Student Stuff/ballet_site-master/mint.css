@@ -1,0 +1,140 @@
+/*This is our css*/
+
+
+body{
+	color:black;
+	background-color: #fadcda;
+	font-family:"Apple Chancery";
+}
+
+#header{
+	float:center;
+	height:150px;
+	text-align:center;
+	background-color: #fadcda;
+	margin-left:50px;
+	margin-right:50px;
+	font-size: 40px;
+	font-family:"Apple Chancery";
+}
+
+
+{
+font-family:"Apple Chancery";
+	margin-top: -70px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	margin-left: 480px;
+}
+
+
+.dancet{
+	width:220px;
+	height:210px;
+	weight:30px;
+	float:left;
+}
+
+.fancet{
+	width:16%;
+	height:16%;
+	weight:30px;
+	float:right;
+}
+
+
+
+#potato{
+  margin-left: auto;
+  margin-right: auto;
+  float:center;
+   left: 30px;
+   right: 60px;
+   border: 3px solid #fff1;
+	height:400px;
+
+	background-color:#ffb6c1;
+
+	padding:10px;
+	font-size: 17px;
+	width:60%;
+
+  margin-top: 60px;
+
+}
+#cow{
+	float:center;
+	background-color:#ffcbd3;
+	display: flex;
+	font-size: 30px;
+
+
+
+
+	margin-left:0px;
+	margin-right:0px;
+	height:150px;
+}
+
+
+#head{
+	text-align: center;
+	font-size: 25px;
+}
+
+.return{
+	text-align: center;
+	margin-top: -140px;
+	font-size: 25px;
+	background-color:#ffcbd3;
+}
+
+
+#linky{
+	text-align: center;
+	font-size: 25px;
+	background-color:#ffcbd3;
+}
+
+
+
+
+.container {
+	position: relative;
+	width: 50%;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #008CBA;
+        }
+
+        .container:hover .overlay {
+          opacity: 1;
+        }
+
+        .text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }

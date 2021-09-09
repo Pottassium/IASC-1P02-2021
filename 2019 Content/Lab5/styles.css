@@ -1,0 +1,26 @@
+body{
+    width: 50%;
+    color: red;
+    background-color: black;
+}
+p{
+  margin: 300px;
+  left: 200px;
+}
+img{
+  max-width: 800px;
+  max-height: 800px;
+}
+#sampleImage{
+  position: absolute;
+  left: -200px;*/
+  /*min-height: 600px;*/
+}
+.overlap{
+  position: fixed;
+  top: 0px;
+  right: 200px;
+}
+h1{
+  z-index: 1; /*both default to 0, so we need 1 here to bring it 'higher' up on the z-axis*/
+}
